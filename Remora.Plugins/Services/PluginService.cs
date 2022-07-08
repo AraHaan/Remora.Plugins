@@ -47,7 +47,7 @@ public sealed class PluginService
     /// Initializes a new instance of the <see cref="PluginService"/> class.
     /// </summary>
     public PluginService()
-        : this(new PluginServiceOptions())
+        : this(new PluginServiceOptions(Enumerable.Empty<string>()))
     {
     }
 

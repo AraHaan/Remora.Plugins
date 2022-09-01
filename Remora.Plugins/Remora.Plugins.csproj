@@ -1,8 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Remora.Sdk/1.0.0">
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1;net6.0</TargetFrameworks>
-        <Version>3.0.4</Version>
+        <VersionPrefix>3.0.5</VersionPrefix>
         <Description>
             The default implementation of Remora.Plugins.Abstractions.
         </Description>
@@ -17,8 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Remora.Extensions.Options.Immutable" Version="1.0.3" />
+      <PackageReference Include="Remora.Extensions.Options.Immutable" Version="1.0.4" />
       <PackageReference Include="System.Linq.Async" Version="6.0.1" />
     </ItemGroup>
-
 </Project>
